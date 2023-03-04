@@ -7,3 +7,12 @@ A collection of web pages vulnerable to SQL injection flaws and more:
 * `schema/` - SQL used to create the test database, a test table and populate it with test entries.
 * Other directories - vulnerable pages for each database management system.
 * `deployment.sh` - A bash script to deploy from scratch a fully-fledged Linux (Debian or Ubuntu) machine with all the relevant database management systems installed and configured, ready to be targeted.
+
+
+# [ SQL test page ](http://testphp.vulnweb.com/listproducts.php?cat=)
+
+```python
+' or 1=1#
+') or ('a'='a
+
+```
